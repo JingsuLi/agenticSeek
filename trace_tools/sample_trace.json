@@ -1,0 +1,20 @@
+{
+  "session_id": "abc-123",
+  "agent": "task_planner",
+  "steps": [
+    {
+      "step": 1,
+      "input": "plan a research workflow",
+      "output": "Step 1: Define scope",
+      "success": true
+    },
+    {
+      "step": 2,
+      "input": "define scope",
+      "output": "[RETRY] hallucinated irrelevant info",
+      "success": false,
+      "fallback": "regenerated using fallback prompt A"
+    }
+  ],
+  "timestamp": "2025-06-03T13:21:00Z"
+}
