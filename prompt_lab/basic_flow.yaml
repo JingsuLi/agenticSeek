@@ -1,0 +1,14 @@
+meta:
+  task: "research planning"
+  agent_role: "planner"
+  version: "0.1"
+
+steps:
+  - name: define_goal
+    prompt: "Summarize the overall objective of the research."
+
+  - name: generate_steps
+    prompt: "Based on the goal, break it into 3–5 actionable steps."
+
+  - name: evaluate_risks
+    prompt: "For each step, list one possible failure mode."
